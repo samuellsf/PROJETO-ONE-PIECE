@@ -1,7 +1,7 @@
 .botoes {
     position: fixed;
     top: auto; /* Remover a posição fixa no topo */
-    bottom: 20px; /* Adicionar para posicionar na parte inferior, ajuste o valor conforme necessário */
+    bottom: 5px; /* Adicionar para posicionar na parte inferior, ajuste o valor conforme necessário */
     right: 0;
     display: flex;
     flex-direction: column;
