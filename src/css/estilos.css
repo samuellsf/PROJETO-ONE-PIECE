@@ -10,7 +10,7 @@
     align-items: center;
     gap: 10px;
     background-color: rgba(0, 0, 0, 0.3);
-    z-index: 2; /* Adicione esta linha para garantir que os botões fiquem sobrepostos ao texto */
+    z-index: 10; /* Adicione esta linha para garantir que os botões fiquem sobrepostos ao texto */
 }
 
 .conteudo {
