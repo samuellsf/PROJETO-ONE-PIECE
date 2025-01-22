@@ -1,3 +1,32 @@
+.botoes {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2; /* Adicione esta linha para garantir que os botões fiquem sobrepostos ao texto */
+}
+
+.conteudo {
+    position: absolute;
+    top: 0;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 249px;
+    z-index: 1; /* Certifique-se de que o z-index seja menor que o dos botões */
+}
+
+
+
 body {
     background-color: #000000;
     overflow: hidden;
