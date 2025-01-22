@@ -1,9 +1,8 @@
-
-
 .botoes {
-    position: relative; /* Alterado de fixed para relative */
+    position: fixed;
     top: auto; /* Remover a posição fixa no topo */
-    bottom: 0; /* Adicionar para posicionar na parte inferior */
+    bottom: 10px; /* Adicionar para posicionar na parte inferior, ajuste o valor conforme necessário */
+    right: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -14,7 +13,6 @@
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 1; /* Certifique-se de que o z-index seja menor que o do conteúdo */
 }
-
 
 .conteudo {
     position: absolute;
