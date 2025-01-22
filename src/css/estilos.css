@@ -1,7 +1,7 @@
 .botoes {
     position: fixed;
     top: auto; /* Remover a posição fixa no topo */
-    bottom: 1px; /* Adicionar para posicionar na parte inferior, ajuste o valor conforme necessário */
+    bottom: 10px; /* Adicionar para posicionar na parte inferior, ajuste o valor conforme necessário */
     right: 0;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@
     justify-content: center;
     min-height: 100vh;
     max-width: 249px;
-    z-index: 1; /* Certifique-se de que o z-index seja menor que o dos botões */
+    z-index: 10; /* Certifique-se de que o z-index seja menor que o dos botões */
 }
 
 
